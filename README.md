@@ -24,8 +24,7 @@ The held-out portion is shipped as `test_data.csv` for Streamlit evaluation.
 
 ## c. Github Repository Link
 
-> **Replace this line with your public GitHub repository URL after pushing.**  
-> Example: `https://github.com/<your-username>/spambase-ml-assignment`
+**GitHub Repository:** https://github.com/Aayushi-Yadav20/spambase-ml-assignment
 
 Repository layout:
 

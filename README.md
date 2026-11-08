@@ -82,8 +82,7 @@ streamlit run app.py
 
 ## Live Streamlit App Link
 
-> **Replace this line with your Streamlit Community Cloud URL after deploy.**  
-> Example: `https://<app-name>.streamlit.app`
+**Live App:** https://spambase-ml-assignment-2026ak05554.streamlit.app
 
 ## Notes for evaluators
 

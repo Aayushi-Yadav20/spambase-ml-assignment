@@ -1,0 +1,173 @@
+{
+  "dataset": "UCI Spambase (OpenML)",
+  "source": "https://archive.ics.uci.edu/dataset/94/spambase",
+  "target_column": "spam",
+  "feature_columns": [
+    "word_freq_make",
+    "word_freq_address",
+    "word_freq_all",
+    "word_freq_3d",
+    "word_freq_our",
+    "word_freq_over",
+    "word_freq_remove",
+    "word_freq_internet",
+    "word_freq_order",
+    "word_freq_mail",
+    "word_freq_receive",
+    "word_freq_will",
+    "word_freq_people",
+    "word_freq_report",
+    "word_freq_addresses",
+    "word_freq_free",
+    "word_freq_business",
+    "word_freq_email",
+    "word_freq_you",
+    "word_freq_credit",
+    "word_freq_your",
+    "word_freq_font",
+    "word_freq_000",
+    "word_freq_money",
+    "word_freq_hp",
+    "word_freq_hpl",
+    "word_freq_george",
+    "word_freq_650",
+    "word_freq_lab",
+    "word_freq_labs",
+    "word_freq_telnet",
+    "word_freq_857",
+    "word_freq_data",
+    "word_freq_415",
+    "word_freq_85",
+    "word_freq_technology",
+    "word_freq_1999",
+    "word_freq_parts",
+    "word_freq_pm",
+    "word_freq_direct",
+    "word_freq_cs",
+    "word_freq_meeting",
+    "word_freq_original",
+    "word_freq_project",
+    "word_freq_re",
+    "word_freq_edu",
+    "word_freq_table",
+    "word_freq_conference",
+    "char_freq_semicolon",
+    "char_freq_parenthesis",
+    "char_freq_bracket",
+    "char_freq_exclamation",
+    "char_freq_dollar",
+    "char_freq_hash",
+    "capital_run_length_average",
+    "capital_run_length_longest",
+    "capital_run_length_total"
+  ],
+  "class_labels": {
+    "0": "not_spam",
+    "1": "spam"
+  },
+  "n_features": 57,
+  "n_instances_total": 4601,
+  "n_train": 3450,
+  "n_test": 1151,
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.9278887923544744,
+      "AUC": 0.9727529563453189,
+      "Precision": 0.9303944315545244,
+      "Recall": 0.8832599118942731,
+      "F1": 0.9062146892655367,
+      "MCC": 0.8484603875619425
+    },
+    "Decision Tree": {
+      "Accuracy": 0.9061685490877498,
+      "AUC": 0.9426728142637737,
+      "Precision": 0.8793859649122807,
+      "Recall": 0.8832599118942731,
+      "F1": 0.8813186813186813,
+      "MCC": 0.8037384029425723
+    },
+    "KNN": {
+      "Accuracy": 0.9157254561251086,
+      "AUC": 0.96208419974845,
+      "Precision": 0.8993288590604027,
+      "Recall": 0.8854625550660793,
+      "F1": 0.8923418423973363,
+      "MCC": 0.8231795191733011
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.8305821025195482,
+      "AUC": 0.9474399408414919,
+      "Precision": 0.71334431630972,
+      "Recall": 0.9537444933920705,
+      "F1": 0.8162111215834119,
+      "MCC": 0.6892659454005928
+    },
+    "Support Vector Machine": {
+      "Accuracy": 0.9287576020851434,
+      "AUC": 0.9708315689013329,
+      "Precision": 0.9325581395348838,
+      "Recall": 0.8832599118942731,
+      "F1": 0.9072398190045249,
+      "MCC": 0.8503065883998372
+    }
+  },
+  "confusion_matrices": {
+    "Logistic Regression": [
+      [
+        667,
+        30
+      ],
+      [
+        53,
+        401
+      ]
+    ],
+    "Decision Tree": [
+      [
+        642,
+        55
+      ],
+      [
+        53,
+        401
+      ]
+    ],
+    "KNN": [
+      [
+        652,
+        45
+      ],
+      [
+        52,
+        402
+      ]
+    ],
+    "Naive Bayes": [
+      [
+        523,
+        174
+      ],
+      [
+        21,
+        433
+      ]
+    ],
+    "Support Vector Machine": [
+      [
+        668,
+        29
+      ],
+      [
+        53,
+        401
+      ]
+    ]
+  },
+  "model_files": {
+    "Logistic Regression": "model/logistic_regression.joblib",
+    "Decision Tree": "model/decision_tree.joblib",
+    "KNN": "model/knn.joblib",
+    "Naive Bayes": "model/naive_bayes.joblib",
+    "Support Vector Machine": "model/support_vector_machine.joblib"
+  }
+}
